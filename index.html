@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Guide App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Country Guide App</h1>
+      <div class="search__country">
+        <input
+          type="text"
+          class="search__input"
+          placeholder="Search for a country..."
+        />
+        <button class="search__button">🔍</button>
+      </div>
+      <div class="country__wrapper">
+        <div class="error">
+          <p>Please enter a valid country name.</p>
+        </div>
+        <div class="counrty__conent">
+          <img src="" alt="" class="country__image" />
+          <h2 class="country__name"></h2>
+          <div class="country__description">
+            <p class="country__capital"></p>
+            <p class="country__population"></p>
+            <p class="country__region"></p>
+            <p class="country__languages"></p>
+            <p class="country__currencies"></p>
+            <p class="country__timezones"></p>
+            <p class="country__map"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
